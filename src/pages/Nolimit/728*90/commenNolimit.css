@@ -1,0 +1,56 @@
+.NolimitSlide728A{
+  height: 90px;
+  width: 728px;
+  background-image: url('../../../images//Nolimt/728\ x\ 90\ slide\ 1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+
+
+
+  .clock7202{
+    padding-top: 25px;
+  
+    width: fit-content;
+    padding-left: 285px;
+  }
+  .FlipClock .flipUnitContainer .ContainerTitle {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: -15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(247, 245, 245);
+  }   
+  
+  .FlipClock .divider {
+  
+    color: white;
+  }
+
+
+  /* Slide B  */
+
+ .NolimitfirstImg2{
+  height: 90px;
+  width: 728px;
+
+  
+   }
+
+  
+  .lastImg2{
+    height: 90px;
+    width: 728px;
+  
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  

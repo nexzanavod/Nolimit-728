@@ -1,0 +1,104 @@
+
+  .slvsNz{
+    height: 250px;
+    width: 300px;
+    background-image: url('../images/slvsnz.svg');
+  }
+  
+  .semiFinal1{
+    height: 250px;
+    width: 300px;
+    background-image: url('../images/semifinal1.svg');
+  }
+  .semiFinal2{
+    height: 250px;
+    width: 300px;
+    background-image: url('../images/semifinal2.svg');
+  }
+  .Final{
+    height: 250px;
+    width: 300px;
+    background-image: url('../images/final.svg');
+  }
+  .clock{
+    padding-top: 145px;
+  
+    width: fit-content;
+    padding-left: 30px;
+  }
+  .FlipClock .flipUnitContainer .ContainerTitle {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: -15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+  }   
+  
+  .FlipClock .divider {
+  
+    color: white;
+  }
+
+
+  /* SL VS AUS CSS */
+
+
+
+  .slvsNz{
+    height: 250px;
+    width: 300px;
+    background-image: url('../images/slvsnzA.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+ /* Define the fade-in animation for the container */
+
+ .firstImg{
+  height: 250px;
+    width: 300px;
+   background-color: aliceblue;
+
+ }
+
+
+.slvsAusB {
+  height: 250px;
+  width: 300px;
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 1s ease-in-out; /* Add a transition for opacity */
+}
+
+/* Apply the fade-in effect when the 'fade-in' class is added */
+.slvsAusB.fade-in {
+  opacity: 1; /* Make it fully visible */
+  height: 250px;
+  width: 300px;
+}
+
+/* Apply fade-in animation to the image */
+.image-in-fade {
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 1s ease-in-out; /* Add a transition for opacity */
+  height: 250px;
+  width: 300px;
+}
+
+/* Apply the fade-in effect when the 'fade-in' class is added to the container */
+.slvsAusB.fade-in .image-in-fade {
+  opacity: 1; /* Make the image fully visible */
+  height: 250px;
+  width: 300px;
+}
+
+.lastImg{
+  height: 250px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
